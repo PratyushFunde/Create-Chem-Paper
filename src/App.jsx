@@ -1,5 +1,4 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
-import sample from './data/test.json'
 import Controls from './components/Controls'
 import Paper from './components/Paper'
 import { DEFAULTS, MM } from './lib/settings'
