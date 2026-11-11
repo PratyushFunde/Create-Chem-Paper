@@ -1,0 +1,814 @@
+{
+  "title": "Sample Question Paper",
+  "subject": "Subject Name",
+  "total_marks": 70,
+  "sections": [
+    {
+      "id": "section-a",
+      "name": "Section A",
+      "marks": null,
+      "instructions": [
+        "Answer all questions."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "number": "1",
+          "text": "",
+          "type": "mcq_group",
+          "marks": 10,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q1-i",
+              "number": "i",
+              "label": "i",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-ii",
+              "number": "ii",
+              "label": "ii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-iii",
+              "number": "iii",
+              "label": "iii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-iv",
+              "number": "iv",
+              "label": "iv",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-v",
+              "number": "v",
+              "label": "v",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-vi",
+              "number": "vi",
+              "label": "vi",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-vii",
+              "number": "vii",
+              "label": "vii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-viii",
+              "number": "viii",
+              "label": "viii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-ix",
+              "number": "ix",
+              "label": "ix",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            },
+            {
+              "id": "q1-x",
+              "number": "x",
+              "label": "x",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+              "type": "mcq",
+              "marks": null,
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Option A lorem"
+                },
+                {
+                  "label": "b",
+                  "text": "Option B lorem"
+                },
+                {
+                  "label": "c",
+                  "text": "Option C lorem"
+                },
+                {
+                  "label": "d",
+                  "text": "Option D lorem"
+                }
+              ],
+              "subquestions": []
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "number": "2",
+          "text": "Lorem ipsum dolor sit amet",
+          "type": "question_group",
+          "marks": 8,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q2-i",
+              "number": "i",
+              "label": "i",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-ii",
+              "number": "ii",
+              "label": "ii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-iii",
+              "number": "iii",
+              "label": "iii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-iv",
+              "number": "iv",
+              "label": "iv",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-v",
+              "number": "v",
+              "label": "v",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-vi",
+              "number": "vi",
+              "label": "vi",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-vii",
+              "number": "vii",
+              "label": "vii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q2-viii",
+              "number": "viii",
+              "label": "viii",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-b",
+      "name": "Section B",
+      "marks": 16,
+      "instructions": [
+        "Attempt any EIGHT of the following questions."
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "number": "3",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q4",
+          "number": "4",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q5",
+          "number": "5",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q6",
+          "number": "6",
+          "text": "Lorem ipsum dolor sit amet:",
+          "type": "question_group",
+          "marks": null,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q6-a",
+              "number": "a",
+              "label": "a",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q6-b",
+              "number": "b",
+              "label": "b",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            }
+          ]
+        },
+        {
+          "id": "q7",
+          "number": "7",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q8",
+          "number": "8",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q9",
+          "number": "9",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q10",
+          "number": "10",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q11",
+          "number": "11",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q12",
+          "number": "12",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q13",
+          "number": "13",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q14",
+          "number": "14",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        }
+      ]
+    },
+    {
+      "id": "section-c",
+      "name": "Section C",
+      "marks": 24,
+      "instructions": [
+        "Attempt any EIGHT of the following questions."
+      ],
+      "questions": [
+        {
+          "id": "q15",
+          "number": "15",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q16",
+          "number": "16",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q17",
+          "number": "17",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q18",
+          "number": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q19",
+          "number": "19",
+          "text": "",
+          "type": "question_group",
+          "marks": null,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q19-a",
+              "number": "a",
+              "label": "a",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q19-b",
+              "number": "b",
+              "label": "b",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q19-c",
+              "number": "c",
+              "label": "c",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            }
+          ]
+        },
+        {
+          "id": "q20",
+          "number": "20",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q21",
+          "number": "21",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q22",
+          "number": "22",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q23",
+          "number": "23",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q24",
+          "number": "24",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q25",
+          "number": "25",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q26",
+          "number": "26",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        }
+      ]
+    },
+    {
+      "id": "section-d",
+      "name": "Section D",
+      "marks": 12,
+      "instructions": [
+        "Attempt any THREE of the following questions."
+      ],
+      "questions": [
+        {
+          "id": "q27",
+          "number": "27",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q28",
+          "number": "28",
+          "text": "",
+          "type": "question_group",
+          "marks": null,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q28-a",
+              "number": "a",
+              "label": "a",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q28-b",
+              "number": "b",
+              "label": "b",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            }
+          ]
+        },
+        {
+          "id": "q29",
+          "number": "29",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "direct",
+          "marks": null,
+          "options": [],
+          "subquestions": []
+        },
+        {
+          "id": "q30",
+          "number": "30",
+          "text": "",
+          "type": "question_group",
+          "marks": null,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q30-a",
+              "number": "a",
+              "label": "a",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q30-b",
+              "number": "b",
+              "label": "b",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            }
+          ]
+        },
+        {
+          "id": "q31",
+          "number": "31",
+          "text": "",
+          "type": "question_group",
+          "marks": null,
+          "options": [],
+          "subquestions": [
+            {
+              "id": "q31-a",
+              "number": "a",
+              "label": "a",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "type": "direct",
+              "marks": null,
+              "options": [],
+              "subquestions": []
+            },
+            {
+              "id": "q31-b",
+              "number": "b",
+              "label": "b",
+              "text": "Lorem ipsum dolor sit amet",
+              "type": "question_group",
+              "marks": null,
+              "options": [],
+              "subquestions": [
+                {
+                  "id": "q31-b-i",
+                  "number": "i",
+                  "label": "i",
+                  "text": "Lorem ipsum",
+                  "type": "direct",
+                  "marks": null,
+                  "options": [],
+                  "subquestions": []
+                },
+                {
+                  "id": "q31-b-ii",
+                  "number": "ii",
+                  "label": "ii",
+                  "text": "Dolor sit amet",
+                  "type": "direct",
+                  "marks": null,
+                  "options": [],
+                  "subquestions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
