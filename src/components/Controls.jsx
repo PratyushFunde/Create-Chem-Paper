@@ -10,7 +10,7 @@ function Field({ label, children }) {
   )
 }
 
-export default function Controls({ s, set, jsonText, setJsonText, error, loadSample, fit }) {
+export default function Controls({ s, set, jsonText, setJsonText, errors, loadSample, fit, home }) {
   const fileRef = useRef(null)
   const num = (k, min, max, step = 1) => (
     <div className="num-in">
@@ -44,6 +44,7 @@ export default function Controls({ s, set, jsonText, setJsonText, error, loadSam
 
   return (
     <aside className="controls">
+      <button className="back" onClick={home}>← Home</button>
       <h1>Question Paper Formatter</h1>
 
       <details open>
@@ -54,7 +55,9 @@ export default function Controls({ s, set, jsonText, setJsonText, error, loadSam
           <input ref={fileRef} type="file" accept=".json,application/json" hidden onChange={onFile} />
         </div>
         <textarea spellCheck="false" value={jsonText} onChange={(e) => setJsonText(e.target.value)} />
-        {error && <p className="err">{error}</p>}
+        {errors.length > 0 && (
+          <ul className="err">{errors.slice(0, 8).map((e, i) => <li key={i}>{e}</li>)}</ul>
+        )}
       </details>
 
       <details open>

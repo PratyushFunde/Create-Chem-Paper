@@ -19,7 +19,10 @@
 .controls button { padding: 6px 10px; border: 1px solid #c4c8cf; background: #f9fafb; border-radius: 5px; cursor: pointer; font: inherit; }
 .controls button:hover { background: #f0f1f3; }
 .controls button.primary { width: 100%; margin-top: 12px; background: #2563eb; border-color: #2563eb; color: #fff; padding: 9px; font-weight: 600; }
-.err { color: #b91c1c; margin: 6px 0 0; }
+.err { color: #b91c1c; margin: 6px 0 0; padding-left: 18px; }
+.controls button.back { margin-bottom: 8px; }
+.render-error { max-width: 600px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 10px; }
+.render-error pre { white-space: pre-wrap; color: #b91c1c; }
 .hint { color: #777; font-size: 11px; }
 
 .cf { margin: 4px 0; }
