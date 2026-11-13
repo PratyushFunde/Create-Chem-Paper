@@ -74,7 +74,7 @@ export default function Cover({ paper, s, total }) {
               {items.map((it, i) => (
                 <div className="irow" key={i}>
                   <span className="ilab">({roman(i + 1)})</span>
-                  {it.head ? <span className="ihead">{it.head}</span> : null}
+                  {it.head ? <span className="ihead"><RichText text={fill(it.head)} /></span> : null}
                   <span className={it.head ? 'itext' : 'itext wide'}><RichText text={fill(it.text)} /></span>
                 </div>
               ))}

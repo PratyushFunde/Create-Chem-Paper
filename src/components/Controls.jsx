@@ -26,6 +26,17 @@ export default function Controls({ s, set, jsonText, setJsonText, errors, loadSa
   )
 
   const setCover = (k, patch) => set({ cover: { ...s.cover, [k]: { ...s.cover[k], ...patch } } })
+  // Wraps the selected text of an instruction in **...** (or removes it if already bold).
+  const boldSel = (i) => {
+    const el = document.getElementById(`instr-ta-${i}`)
+    if (!el) return
+    const { selectionStart: a, selectionEnd: b, value } = el
+    if (a === b) return
+    const sel = value.slice(a, b)
+    const wrapped = sel.startsWith('**') && sel.endsWith('**') && sel.length > 4 ? sel.slice(2, -2) : `**${sel}**`
+    setInstr(i, { text: value.slice(0, a) + wrapped + value.slice(b) })
+    requestAnimationFrame(() => { el.focus(); el.setSelectionRange(a, a + wrapped.length) })
+  }
   const setHead = (i, patch) =>
     set({ coverHeadings: s.coverHeadings.map((h, j) => (j === i ? { ...h, ...patch } : h)) })
   const setInstr = (i, patch) =>
@@ -89,7 +100,7 @@ export default function Controls({ s, set, jsonText, setJsonText, errors, loadSa
             )}
           </div>
         ))}
-        <p className="hint">Instructions are numbered automatically. Leave “Heading” empty for a full-width line. Use new lines for separate paragraphs and $…$ for formulas.</p>
+        <p className="hint">Instructions are numbered automatically. Leave “Heading” empty for a full-width line. Use new lines for separate paragraphs, $…$ for formulas and **text** for bold (or select text and press “Bold selection”).</p>
         {s.instructions.map((it, i) => (
           <div className="inst-item" key={i}>
             <div className="inst-top">
@@ -100,7 +111,10 @@ export default function Controls({ s, set, jsonText, setJsonText, errors, loadSa
               <button title="Move down" disabled={i === s.instructions.length - 1} onClick={() => moveInstr(i, 1)}>↓</button>
               <button title="Delete" onClick={() => set({ instructions: s.instructions.filter((_, j) => j !== i) })}>✕</button>
             </div>
-            <textarea className="small" value={it.text} onChange={(e) => setInstr(i, { text: e.target.value })} />
+            <div className="fmt">
+              <button title="Make selected text bold" onClick={() => boldSel(i)}><b>B</b> Bold selection</button>
+            </div>
+            <textarea id={`instr-ta-${i}`} className="small" value={it.text} onChange={(e) => setInstr(i, { text: e.target.value })} />
           </div>
         ))}
         <button onClick={() => set({ instructions: [...s.instructions, { show: true, head: '', text: '' }] })}>+ Add instruction</button>

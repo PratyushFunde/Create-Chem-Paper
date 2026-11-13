@@ -8,17 +8,26 @@ function math(src) {
   return cache.get(src)
 }
 
-// Renders text containing $...$ inline TeX and \n line breaks.
+function withMath(text, k) {
+  return text.split(/(\$[^$]+\$)/g).map((part, i) =>
+    part.length > 2 && part.startsWith('$') && part.endsWith('$') ? (
+      <span key={`${k}-${i}`} className="m" dangerouslySetInnerHTML={{ __html: math(part.slice(1, -1)) }} />
+    ) : (
+      <span key={`${k}-${i}`}>{part}</span>
+    ),
+  )
+}
+
+// Renders text containing **bold**, $...$ inline TeX and \n line breaks.
 export default function RichText({ text = '' }) {
-  const lines = String(text).split('\n')
-  return lines.map((line, li) => (
+  return String(text).split('\n').map((line, li) => (
     <span key={li}>
       {li > 0 && <br />}
-      {line.split(/(\$[^$]+\$)/g).map((part, i) =>
-        part.length > 2 && part.startsWith('$') && part.endsWith('$') ? (
-          <span key={i} className="m" dangerouslySetInnerHTML={{ __html: math(part.slice(1, -1)) }} />
+      {line.split(/(\*\*[^*]+\*\*)/g).map((seg, i) =>
+        seg.length > 4 && seg.startsWith('**') && seg.endsWith('**') ? (
+          <b key={i}>{withMath(seg.slice(2, -2), `${li}-${i}`)}</b>
         ) : (
-          <span key={i}>{part}</span>
+          withMath(seg, `${li}-${i}`)
         ),
       )}
     </span>
